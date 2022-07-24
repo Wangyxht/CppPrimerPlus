@@ -9,20 +9,13 @@ int main(void)
     string firstName;
     string secondName;
     string out;
-    char gradeLetter;
     int age;
 
-    cout<<"What is your first name:";
-    getline(cin,firstName);
-    
-    cout<<"What is your second name:";
-    getline(cin,secondName);
-
-    cout<<"What is your age:";
-    cin>>age;
-    cin.get();
+    char gradeLetter;
 
     cout<<"What letter grade do you deserve:";
+
+
     cin>>gradeLetter;
     cin.get();
 
@@ -30,6 +23,8 @@ int main(void)
     out=secondName+","+" "+firstName;
     cout<<"Name:"<<out<<endl;
     cout<<"Grade:"<<gradeLetter<<endl;
+    cout<<"Age:"<<age<<endl;
+
 
     return 0;
 }
