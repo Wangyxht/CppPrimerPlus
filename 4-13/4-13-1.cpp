@@ -9,7 +9,11 @@ int main(void)
     string firstName;
     string secondName;
     string out;
+<<<<<<< HEAD
     char gradeLetter;
+=======
+    char gardeLetter;
+>>>>>>> 966fec70791bc293be803247f72d5b4a09cfb58d
     int age;
 
     cout<<"What is your first name:";
@@ -23,6 +27,7 @@ int main(void)
     cin.get();
 
     cout<<"What letter grade do you deserve:";
+<<<<<<< HEAD
     cin>>gradeLetter;
     cin.get();
 
@@ -31,6 +36,16 @@ int main(void)
     out=secondName+","+" "+firstName;
     cout<<"Name:"<<out<<endl;
     cout<<"Grade:"<<gradeLetter<<endl;
+=======
+    cin>>gardeLetter;
+    cin.get();
+
+    gardeLetter+=1;
+
+    out=secondName+","+" "+firstName;
+    cout<<"Name:"<<out<<endl;
+    cout<<"Grade:"<<gardeLetter<<endl;
+>>>>>>> 966fec70791bc293be803247f72d5b4a09cfb58d
     cout<<"Age:"<<age<<endl;
 
     return 0;
