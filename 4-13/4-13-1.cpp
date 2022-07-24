@@ -26,13 +26,10 @@ int main(void)
     cin>>gradeLetter;
     cin.get();
 
-    gradeLetter+=1;
 
     out=secondName+","+" "+firstName;
     cout<<"Name:"<<out<<endl;
     cout<<"Grade:"<<gradeLetter<<endl;
-    cout<<"Age:"<<age<<endl;
 
     return 0;
-    
 }
